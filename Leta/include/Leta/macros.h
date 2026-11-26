@@ -76,7 +76,7 @@ break;\
 }else{}
 
 #define ASSERT_BREAK2(x,info)\
-if(!(x))[[unlikely]\
+if(!(x))[[unlikely]]\
 {LETA_ASSERT2(x,info);\
 break;\
 }else{}

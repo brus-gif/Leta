@@ -1,0 +1,35 @@
+实测数据如下(平台6核 x86_64 Debian机器)：
+
+dev@debian:~/Code/second/pans/bin/tests$ ./test_mutex 1000000
+operations: 1000000, average of 7 runs
+
+threads: 1
+pthread_spinlock::Spinlock    14335512.29 ns    total, 14.34 ns/op
+atomic_flag::Spinlock         15890191.71 ns    total, 15.89 ns/op
+atomic_wait                   22092990.57 ns    total, 22.09 ns/op
+std::mutex                    25561656.00 ns    total, 25.56 ns/op
+
+threads: 2
+pthread_spinlock::Spinlock    58567846.29 ns    total, 58.57 ns/op
+atomic_flag::Spinlock         57283615.14 ns    total, 57.28 ns/op
+atomic_wait                   32876545.57 ns    total, 32.88 ns/op
+std::mutex                    59783068.14 ns    total, 59.78 ns/op
+
+threads: 4
+pthread_spinlock::Spinlock    107808279.29 ns   total, 107.81 ns/op
+atomic_flag::Spinlock         77783261.57 ns    total, 77.78 ns/op
+atomic_wait                   78707336.14 ns    total, 78.71 ns/op
+std::mutex                    65705970.43 ns    total, 65.71 ns/op
+
+threads: 8
+pthread_spinlock::Spinlock    172506586.29 ns   total, 172.51 ns/op
+atomic_flag::Spinlock         123846987.86 ns   total, 123.85 ns/op
+atomic_wait                   215281753.43 ns   total, 215.28 ns/op
+std::mutex                    81340459.29 ns    total, 81.34 ns/op
+
+threads: 10
+pthread_spinlock::Spinlock    203061361.57 ns   total, 203.06 ns/op
+atomic_flag::Spinlock         168216887.14 ns   total, 168.22 ns/op
+atomic_wait                   238041247.14 ns   total, 238.04 ns/op
+std::mutex                    84330990.43 ns    total, 84.33 ns/op
+ 
