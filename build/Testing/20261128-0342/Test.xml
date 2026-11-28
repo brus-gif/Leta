@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20261128-0342-Experimental"
+	Name="(empty)"
+	Generator="ctest-4.5.1"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Linux"
+	Hostname="brus-virtual-machine"
+	OSRelease="6.8.0-149-generic"
+	OSVersion="#149~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Oct 28 20:58:45 UTC "
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="154"
+	ModelName="12th Gen Intel(R) Core(TM) i7-12700H"
+	ProcessorCacheSize="24576"
+	NumberOfLogicalCPU="2"
+	NumberOfPhysicalCPU="2"
+	TotalVirtualMemory="3429"
+	TotalPhysicalMemory="3868"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2688.000000"
+	>
+	<Testing>
+		<StartDateTime>Nov 28 11:49 CST</StartDateTime>
+		<StartTestTime>1795837762</StartTestTime>
+		<TestList/>
+		<EndDateTime>Nov 28 11:49 CST</EndDateTime>
+		<EndTestTime>1795837762</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

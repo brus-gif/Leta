@@ -34,14 +34,14 @@ return val;\
 #define ASSERT_RETVAL2(x,val,info)\
 do{\
 if(x)[[likely]] break;\
-Leta_ASSERT2(x,info);\
+LETA_ASSERT2(x,info);\
 return val;\
 }while(0)
 
 #define ASSERT_RETNONE(x)\
-do{
+do{\
 if(x)[[likely]] break;\
-Leta_ASSERT(x);\
+LETA_ASSERT(x);\
 return;\
 }while(0)
 
@@ -52,7 +52,7 @@ LETA_ASSERT(x);\
 }while(0)
 
 #define ASSERT_NOEFFECT2(x,info)\
-do{
+do{\
 if(x)[[likely]] break;\
 LETA_ASSERT2(x,info);\
 }while(0)

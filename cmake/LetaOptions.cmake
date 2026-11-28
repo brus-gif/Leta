@@ -5,7 +5,7 @@
 # 因为 Leta_options是一个INTERFACE类型的库，它本身不编译、不生成任何实际的库文件，它存在的唯一意义就是批量传递选项。
 # - 它自己没有源码，不需要编译、链接，所以 `PRIVATE` 毫无意义；
 # - 用 `INTERFACE` 就是实现：任何目标只要链接了 Leta_options，就会自动继承这里所有的编译选项和链接选项。
-add_library(Leta_opptions INTERFACE)
+add_library(Leta_options INTERFACE)
 
 # - 最外层：条件成立才应用后面的选项
 # - 条件:$<OR:A,B>->A 或 B 任意一个成立就生效
@@ -35,24 +35,24 @@ target_compile_options(Leta_options INTERFACE
 #-rdynamic本质
 # - 作用：链接时，把程序的所有符号（函数名、变量名）都加入到动态符号表中。
 # - 为什么加：用来支持栈回溯（backtrace）。程序崩溃打印调用栈时，需要从符号表解析函数名；不加这个选项，backtrace 只能拿到地址，看不到函数名，调试崩溃问题非常困难。
-target_link_options(Leta_opptions INTERFACE
+target_link_options(Leta_options INTERFACE
     $<$<AND:$<PLATFORM_ID:Linux>,$<OR:$<CXX_COMPILER_ID:GUN>,$<CXX_COMPILER_ID:Clang>>>:
     -rdynamic
 >
 )
 
 # $<CONFIG:Debug>：只有当前构建类型是 Debug 时，才生效。
-# 这是在进行宏定义PANS_DEBUG
-# - 作用：Debug 模式下自动定义PANS_DEBUG这个宏。
-# - 用途：代码里可以写#ifdef PANS_DEBUG ... #endif，把调试日志、断言、校验逻辑只放在 Debug 版里，Release 版自动剔除。
+# 这是在进行宏定义LETA_DEBUG
+# - 作用：Debug 模式下自动定义LETA_DEBUG这个宏。
+# - 用途：代码里可以写#ifdef LETA_DEBUG ... #endif，把调试日志、断言、校验逻辑只放在 Debug 版里，Release 版自动剔除。
 target_compile_definitions(Leta_options INTERFACE
-    $<$<CONFIG:Debug>:Leta_DEBUG>
+    $<$<CONFIG:Debug>:LETA_DEBUG>
 )
 
 #-o0 关闭所有代码优化
 #-g3生成最高级别的调试信息
 #-ggdb生成 GDB 专用格式的调试信息
-target_compile_options(Leata_options INTERFACE
+target_compile_options(Leta_options INTERFACE
     $<$<CONFIG:Debug>:-O0>
     $<$<CONFIG:Debug>:-g3>
     $<$<CONFIG:Debug>:-ggdb>
