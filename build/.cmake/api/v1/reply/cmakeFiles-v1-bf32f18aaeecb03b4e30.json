@@ -1,0 +1,384 @@
+{
+	"globsDependent" : 
+	[
+		{
+			"expression" : "/home/brus/github/Leta/test/*.cc",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/home/brus/github/Leta/test/*.cpp",
+			"listDirectories" : true,
+			"paths" : 
+			[
+				"/home/brus/github/Leta/test/testlock.cpp"
+			]
+		},
+		{
+			"expression" : "/home/brus/github/Leta/test/*.cxx",
+			"listDirectories" : true,
+			"paths" : []
+		},
+		{
+			"expression" : "/home/brus/github/Leta/Leta/*.c",
+			"paths" : [],
+			"recurse" : true
+		},
+		{
+			"expression" : "/home/brus/github/Leta/Leta/*.cc",
+			"paths" : 
+			[
+				"/home/brus/github/Leta/Leta/src/logger/formatter.cc"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "/home/brus/github/Leta/Leta/*.h",
+			"paths" : 
+			[
+				"/home/brus/github/Leta/Leta/include/Leta/export.h",
+				"/home/brus/github/Leta/Leta/include/Leta/logger/appender.h",
+				"/home/brus/github/Leta/Leta/include/Leta/logger/log_level.h",
+				"/home/brus/github/Leta/Leta/include/Leta/macros.h",
+				"/home/brus/github/Leta/Leta/include/Leta/types.h",
+				"/home/brus/github/Leta/Leta/src/logger/buffer.h",
+				"/home/brus/github/Leta/Leta/src/logger/buffer_config.h",
+				"/home/brus/github/Leta/Leta/src/logger/formatter.h",
+				"/home/brus/github/Leta/Leta/src/logger/log_record.h"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "/home/brus/github/Leta/Leta/*.hpp",
+			"paths" : [],
+			"recurse" : true
+		},
+		{
+			"expression" : "/home/brus/github/Leta/Leta/*cpp",
+			"paths" : [],
+			"recurse" : true
+		}
+	],
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.5.1/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Platform/Linux-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.5.1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.5.1/CMakeCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Linker/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Platform/Linker/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Platform/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Linker/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Platform/Linker/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"path" : "cmake/LetaOptions.cmake"
+		},
+		{
+			"path" : "cmake/function.cmake"
+		},
+		{
+			"path" : "cmake/LetaConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "Leta/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Internal/CheckCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Internal/CheckCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/Internal/CheckCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "test/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/snap/cmake/1587/share/cmake-4.5/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "tools/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/brus/github/Leta/build",
+		"source" : "/home/brus/github/Leta"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}
