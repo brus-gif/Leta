@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/brus/github/Leta/build/test",
-  "command": "/usr/bin/g++   -g -std=gnu++20 -o CMakeFiles/testlock.dir/testlock.cpp.o -c /home/brus/github/Leta/test/testlock.cpp",
-  "file": "/home/brus/github/Leta/test/testlock.cpp",
-  "output": "test/CMakeFiles/testlock.dir/testlock.cpp.o"
-}
-]
