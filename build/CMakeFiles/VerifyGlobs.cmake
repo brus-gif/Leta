@@ -130,10 +130,10 @@ endif()
 # LETA_HEADERS at Leta/CMakeLists.txt:5 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/brus/github/Leta/Leta/*.h")
 set(OLD_GLOB
-  "/home/brus/github/Leta/Leta/include/Leta/log_level.h"
+  "/home/brus/github/Leta/Leta/include/Leta/export.h"
+  "/home/brus/github/Leta/Leta/include/Leta/logger/log_level.h"
   "/home/brus/github/Leta/Leta/include/Leta/macros.h"
-  "/home/brus/github/Leta/Leta/include/export.h"
-  "/home/brus/github/Leta/Leta/include/types.h"
+  "/home/brus/github/Leta/Leta/include/Leta/types.h"
   "/home/brus/github/Leta/Leta/src/logger/buffer.h"
   "/home/brus/github/Leta/Leta/src/logger/buffer_config.h"
   "/home/brus/github/Leta/Leta/src/logger/formatter.h"
